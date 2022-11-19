@@ -15,7 +15,7 @@ alert(`a soma é ${sum}, a subtração é ${sub}, a multiplicação é ${mult}, 
 if(rest == 0){
   alert('A soma dos dois números é par: ' + sum)
 }else{
-  alert('A soma dos dois números é impar: 3' + sum)
+  alert('A soma dos dois números é impar: ' + sum)
 }
 
 if(number1 == number2){
