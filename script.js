@@ -10,6 +10,8 @@ let mult = number1 * number2
 let div = number1 / number2
 let rest = number1 % number2
 
+div = div.toFixed(2)
+
 alert(`a soma é ${sum}, a subtração é ${sub}, a multiplicação é ${mult}, a divisão é ${div} e o resto é ${rest}`)
 
 if(rest == 0){
